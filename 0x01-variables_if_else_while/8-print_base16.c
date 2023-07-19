@@ -13,11 +13,13 @@ int main(void)
 
 	while (c <= 9)
 	{
-		if (c == 9)
+		if (c == 9 && a <= 'f')
 		{
 			putchar(a);
+			a++;
 		}
 		putchar(c + '0');
+		c++;
 	}
 	putchar('\n');
 

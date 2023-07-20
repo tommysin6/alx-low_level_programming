@@ -21,7 +21,7 @@ int main(void)
 			c = a;
 			while (c <= 9)
 			{
-				d = (c == a) ? j + 1 : 0;
+				d = (c == a) ? b + 1 : 0;
 				while (d <= 9)
 				{
 					putchar(a + '0');

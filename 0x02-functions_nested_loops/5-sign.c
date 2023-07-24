@@ -3,9 +3,9 @@
 /**
  * print_sign - A program that prints the sign of a number
  *
- * @c: The character to check
+ * @n: The character to check
  *
- * Return: 1 if n is greater than zero, 0 if n is zero, -1 if it is less than zero
+ * Return: 1 if greater than zero, 0 equal to zero, -1 otherwise
  */
 
 int print_sign(int n)

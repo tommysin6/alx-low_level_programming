@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - A program that prints natural numbers
  *
- * @n: Character to check
+ * @n: Starting number
  *
  * Return: Print natural numbers
  */

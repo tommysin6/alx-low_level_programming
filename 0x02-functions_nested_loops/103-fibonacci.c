@@ -10,18 +10,23 @@ int main(void)
 {
 	long int a = 1;
 	long int b = 2;
-	int c;
+	long int c;
 	long int d = 2;
 
-	while (c <= 4000000)
+	while (1)
 	{
 		c = a + b;
+		if (c > 4000000)
+		{
+			break;
+		}
 		if (c % 2 == 0)
 		{
 			d += c;
-			a = b;
-			b = c;
 		}
+
+		a = b;
+		b = c;
 	}
 	printf("%lu\n", d);
 

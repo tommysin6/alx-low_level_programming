@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	long int a = 1;
-	long int b = 2;
-	long int c;
-	long int d;
+	unsigned long int a = 1;
+	unsigned long int b = 2;
+	unsigned long int c;
+	unsigned long int d;
 
 	printf("%lu, %lu", a, b);
 

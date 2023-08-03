@@ -1,6 +1,6 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef main_h
+#define main_h
 
 int _isupper(int c);
 
-#endif /* MAIN_H */
+#endif

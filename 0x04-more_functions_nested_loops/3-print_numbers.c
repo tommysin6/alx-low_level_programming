@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * print_numbers - A program that prints numbers from zero to nine
+ *
+ * Return: void
+ */
+
+void print_numbers(void)
+{
+	int a = 0;
+
+	while (a <= 9)
+	{
+		_putchar(a + '0');
+	}
+	_putchar('\n');
+}

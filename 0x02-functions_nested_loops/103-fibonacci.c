@@ -13,8 +13,9 @@ int main(void)
 	int c;
 	long int d = 2;
 
-	for (c = a + b; c <= 4000000; c++)
+	while (c <= 4000000)
 	{
+		c = a + b;
 		if (c % 2 == 0)
 		{
 			d += c;

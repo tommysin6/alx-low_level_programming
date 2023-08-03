@@ -12,6 +12,8 @@ int main(void)
 	int b = 2;
 	int c;
 	int d;
+	
+	printf("%d, %d", a, b);
 
 	for (d = 2; d < 50; d++)
 	{

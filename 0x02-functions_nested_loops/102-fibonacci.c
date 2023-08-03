@@ -10,7 +10,7 @@ int main(void)
 {
 	int a = 1;
 	int b = 2;
-	int c;
+	long int c;
 	int d;
 
 	printf("%d, %d", a, b);
@@ -18,7 +18,7 @@ int main(void)
 	for (d = 2; d < 50; d++)
 	{
 		c = a + b;
-		printf(", %d", c);
+		printf(", %lu", c);
 
 		a = b;
 		b = c;

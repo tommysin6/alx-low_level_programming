@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int a = 1;
-	int b = 2;
+	long int a = 1;
+	long int b = 2;
 	long int c;
 	int d;
 
-	printf("%d, %d", a, b);
+	printf("%lu, %lu", a, b);
 
 	for (d = 2; d < 50; d++)
 	{

@@ -2,8 +2,6 @@
 
 /**
  * print_numbers - A program that prints numbers from zero to nine
- *
- * Return: void
  */
 
 void print_numbers(void)

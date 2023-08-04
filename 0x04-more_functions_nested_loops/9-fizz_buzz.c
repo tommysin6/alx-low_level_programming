@@ -26,10 +26,10 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", a);
+			printf(" %d", a);
 		}
 	}
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }

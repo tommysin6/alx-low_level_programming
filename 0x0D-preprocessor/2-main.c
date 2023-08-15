@@ -1,21 +1,14 @@
-#include "main.h.h"
+#include <stdio.h>
 
 /**
- * main - A program that prints the file it was compiled from
+ * main - A program that prints the file it is compiled from
  *
  * Return: 0 (Success)
  */
 
 int main(void)
 {
-
-	const char *filename = __FILE__;
-
-	for (int i = 0; filename[i] != ''\0'; i++)
-	{
-		_putchar(filename[i]);
-	}
-	_putchar('\n');
+	printf("%s\n", __FILE__);
 
 	return (0);
 }

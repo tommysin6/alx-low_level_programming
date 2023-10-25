@@ -32,5 +32,5 @@ int actual_prime(int i, int j)
 	if (i % j == 0 && i > 0)
 		return (0);
 	
-	return (actual_prime(n, i - 1));
+	return (actual_prime(i, j - 1));
 }

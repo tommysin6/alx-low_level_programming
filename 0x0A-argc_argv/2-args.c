@@ -11,9 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int length = argc;
-
-	for (int i = 0; i < length; i++)
+	for (int i = 0; i < argc; i++)
 	{
 		printf("%s\n", argv[i]);
 	}
